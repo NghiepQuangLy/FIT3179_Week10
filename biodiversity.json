@@ -14,7 +14,7 @@
     
     {
       "data": {
-        "url": "https://NghiepQuangLy.github.io/FIT3179_Data_Visualisation_2/ne_110m_admin_0_countries.topojson",
+        "url": "https://NghiepQuangLy.github.io/FIT3179_Week10/ne_110m_admin_0_countries.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "selection": {
@@ -24,7 +24,7 @@
         "lookup": "properties['POSTAL']",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/NghiepQuangLy/FIT3179_Data_Visualisation_2/main/Threatened_species_in_each_major_group_by_country_2020.csv"
+            "url": "https://raw.githubusercontent.com/NghiepQuangLy/FIT3179_Week10/main/Threatened_species_in_each_major_group_by_country_2020.csv"
             },
             "key": "Postal",
             "fields": ["Normalized_Total", "Total"]
